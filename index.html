@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Netuno</title>
     <link rel="stylesheet" href="estilos/gerandodiamantes.css" />
+    <link rel="stylesheet" href="estilos/OProjeto.css" />
   </head>
   <body>
     <header>
@@ -19,7 +20,7 @@
         <a class="nav" href="">O Problema</a>
         <a class="nav" href="">Sua Jornada</a>
         <a class="nav" href="">Objetivos</a>
-        <a class="nav" id="bottomblack" href="">Processo Seletivo</a>
+        <a id="bottomblack" href="">Processo Seletivo</a>
       </div>
     </header>
     <div id="linha"></div>
@@ -30,29 +31,50 @@
             <h2>Formulário de Cadastro</h2>
             <p>Preencha seus dados</p>
             <form action="">
-              <input
-                class="form1"
-                type="text"
-                name="nome"
-                id="inome"
-                placeholder="Nome completo"
-              />
+              <div class="formdiv">
+                <img
+                  class="iconform"
+                  src="pasta.netuno/Assets_Netuno/icones/user.png"
+                  alt=""
+                />
+                <input
+                  class="form1"
+                  type="text"
+                  name="nome"
+                  id="inome"
+                  placeholder="Nome completo"
+                />
+              </div>
               <br />
-              <input
-                class="form1"
-                type="text"
-                name="email"
-                id="iemail"
-                placeholder="E-mail"
-              />
+              <div class="formdiv">
+                <img
+                  class="iconform"
+                  src="pasta.netuno/Assets_Netuno/icones/mail.png"
+                  alt=""
+                />
+                <input
+                  class="form1"
+                  type="text"
+                  name="email"
+                  id="iemail"
+                  placeholder="E-mail"
+                />
+              </div>
               <br />
-              <input
-                class="form1"
-                type="text"
-                name="estado"
-                id="iestado"
-                placeholder="Estado"
-              />
+              <div class="formdiv">
+                <img
+                  class="iconform"
+                  src="pasta.netuno/Assets_Netuno/icones/state.png"
+                  alt=""
+                />
+                <input
+                  class="form1"
+                  type="text"
+                  name="estado"
+                  id="iestado"
+                  placeholder="Estado"
+                />
+              </div>
               <br />
             </form>
           </div>
@@ -129,6 +151,28 @@
           </div>
         </article>
       </section>
+      <section id="mae-oprojeto">
+        <article id="img-oprojeto">
+          <img src="pasta.netuno/Assets_Netuno/dev.png" alt="" />
+        </article>
+        <article id="texto-oprojeto">
+          <h1>O Projeto</h1>
+          <p>
+            Com o "novo normal"causado pela pandemia dos ultimos anos, mais
+            empresas nomundo todo tém aberto oportunidades no modelohome office.
+            <br />
+            Alinhadoa depreciação da moeda local, temos um alto índice de
+            profissionais migrando para trabalhos em outros países.
+          </p>
+          <p id="pbolder">
+            Oprojeto Netuno, idealizado pela fasters, tem por objetivo reduzir
+            os estresses causados por recrutamennto e turn over na área de
+            tecnologia, bem como gerar oportunidades de carreira para novos
+            profissionais.
+          </p>
+        </article>
+      </section>
+      <section></section>
     </main>
     <footer></footer>
   </body>

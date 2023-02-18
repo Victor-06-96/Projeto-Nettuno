@@ -40,10 +40,16 @@ a {
 }
 
 #bottomblack {
+  color: white;
   margin-left: 80px;
   padding: 15px 30px;
   font-weight: bolder;
   background-color: black;
+}
+
+#bottomblack:hover {
+  background-color: white;
+  color: black;
 }
 
 #linha {
@@ -58,6 +64,7 @@ a {
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 #bannertopo {
@@ -68,6 +75,7 @@ main {
 }
 
 #maeform {
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,6 +94,20 @@ main {
 #topform {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.formdiv {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.iconform {
+  position: absolute;
+  top: 25%;
+  left: 1%;
 }
 
 #cursuser {
@@ -120,11 +142,11 @@ main {
 }
 
 .form1 {
-  width: 100%;
-  height: 50px;
-  margin: 5px;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.233);
+  position: absolute;
+  left: 10%;
+  height: 92%;
+  width: 89%;
+  border-color: transparent;
 }
 
 .form2 {

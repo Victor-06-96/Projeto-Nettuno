@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#mae-oprojeto {
+  display: flex;
+}
+
+#img-oprojeto {
+  width: 60vw;
+  height: 100vh;
+}
+
+#img-oprojeto img {
+  width: 60vw;
+  min-width: 650px;
+}
+
+#texto-oprojeto {
+  width: 35vw;
+  height: 100vh;
+  margin-right: 10px;
+  color: white;
+  padding-left: 70px;
+}
+
+#texto-oprojeto h1 {
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.527);
+  margin-top: 80px;
+  min-width: 300px;
+}
+
+#texto-oprojeto p {
+  display: block;
+  font-size: 21px;
+  margin-top: 30px;
+  width: 70%;
+  min-width: 300px;
+}
+
+#pbolder {
+  font-weight: bolder;
+}
