@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1a7fbd;
+  font-size: 1.1em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 100px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.nav:hover {
+  color: black;
+  background-color: #a4dcff;
+  cursor: pointer;
+}
+
+#logo {
+  margin-right: 100px;
+}
+
+#bottomblack {
+  font-weight: bolder;
+  background-color: black;
+}
+
+#linha {
+  padding: 1px;
+  background-image: linear-gradient(
+    to left,
+    #1a7fbd,
+    rgba(255, 255, 255, 0.658),
+    #1a7fbd
+  );
+}
+
+main {
+  display: flex;
+}
+
+#bannertopo {
+  position: absolute;
+  width: 90vw;
+  height: 1200px;
+  background-image: url(../pasta.netuno/Assets_Netuno/bannertopo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -300px 0px;
+}
+
+#maeform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 60%;
+  margin-top: 180px;
+  height: 850px;
+  width: 500px;
+  border-radius: 15px;
+  border: 0.1px solid;
+  border-image: linear-gradient(45deg, #ffffff79, #0077cc88, #ffffff79);
+  border-image-slice: 1;
+}
+
+#topform {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#cursuser {
+  background-color: #1a7fbd;
+  height: 215px;
+}
+
+#botform {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.form {
+  background-color: rgb(255, 255, 255);
+  width: 85%;
+  height: 240px;
+  padding: 20px;
+}
+
+.form h2 {
+  color: rgba(0, 0, 0, 0.164);
+  padding: 10px;
+  text-indent: 10px;
+}
+
+.form p {
+  color: #1a7fbd;
+  padding: 10px;
+  text-indent: 10px;
+}
+
+.form1 {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+}
