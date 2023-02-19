@@ -24,13 +24,19 @@ a {
   border-radius: 5px;
 }
 
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav {
   color: white;
   margin-left: 30px;
 }
 
 .nav:hover {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: #a4dcff;
   cursor: pointer;
 }
@@ -83,8 +89,8 @@ main {
   position: absolute;
   left: 65%;
   margin-top: 90px;
-  height: 950px;
-  width: 550px;
+  height: 900px;
+  width: 500px;
   border-radius: 15px;
   border: 0.1px solid;
   border-image: linear-gradient(45deg, #ffffff79, #0077cc88, #ffffff79);
@@ -92,6 +98,7 @@ main {
 }
 
 #topform {
+  box-shadow: 20px 20px 100px rgba(0, 0, 0, 0.315);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -114,24 +121,25 @@ main {
   background-color: #1a7fbd;
   height: 215px;
   color: white;
+  box-shadow: 20px 20px 100px rgba(0, 0, 0, 0.315);
 }
 
 #botform {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   color: #1a7fbd;
+  box-shadow: 20px 20px 100px rgba(0, 0, 0, 0.5);
 }
 
 .form {
   background-color: rgb(255, 255, 255);
   width: 85%;
-  height: 285px;
+  height: 260px;
   padding: 20px;
 }
 
 .form h2 {
   color: rgba(0, 0, 0, 0.164);
-  padding: 10px;
   text-indent: 10px;
 }
 
@@ -152,7 +160,7 @@ main {
 .form2 {
   width: 20px;
   height: 19px;
-  margin: 35px 10px 0px 20px;
+  margin: 35px 0px 0px 20px;
 }
 
 .checkbot {
