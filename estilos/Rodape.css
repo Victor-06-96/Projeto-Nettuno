@@ -4,6 +4,7 @@
 }
 
 footer {
+  width: 100vw;
   color: white;
   display: flex;
   justify-content: center;
