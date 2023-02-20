@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#suajornada {
+  background-color: rgb(241, 241, 241);
+}
+
+#frasejornada {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80vw;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+#frasejornada h1 {
+  background-image: linear-gradient(to right, #1a7fbd, #7eceff);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 65px;
+  width: 355px;
+  padding: 0px 25px;
+}
+
+#frasejornada img {
+  margin-top: 40px;
+  width: 30vw;
+}
+
+.ajornada {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 80vw;
+}
+
+.jornada {
+  color: white;
+  margin: 10px;
+  background-color: #1a7fbd;
+  display: flex;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.img-jornada {
+  width: 54px;
+  height: 54px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+}
+
+.frase-jornada {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+#pt2-ajornada {
+  margin-top: 150px;
+  text-align: center;
+  padding-bottom: 250px;
+}
+
+#botao-cadastrar {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 25px 10px;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+#botao-cadastrar h2 strong {
+  color: #1a7fbd;
+}
+
+#vector {
+  width: 300px;
+}

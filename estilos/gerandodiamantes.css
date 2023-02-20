@@ -157,16 +157,24 @@ main {
   border-color: transparent;
 }
 
-.form2 {
+.check {
   width: 20px;
   height: 19px;
   margin: 35px 0px 0px 20px;
+}
+
+.check:hover {
+  cursor: pointer;
 }
 
 .checkbot {
   width: 20px;
   height: 20px;
   margin: 30px 10px;
+}
+
+.checkbot:hover {
+  cursor: pointer;
 }
 
 .label_checkbot {
@@ -194,4 +202,12 @@ main {
   height: 55px;
   border-radius: 5px;
   border-color: transparent;
+}
+
+#enviar:hover {
+  cursor: pointer;
+}
+
+#fimform a {
+  padding: 0px;
 }
