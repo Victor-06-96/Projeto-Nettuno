@@ -76,7 +76,7 @@ main {
 #bannertopo {
   width: 100vw;
   height: 130vh;
-  background: url(../pasta.netuno/Assets_Netuno/bannertopo.png) no-repeat -250px -140px;
+  background: url(../Assets_Netuno/bannertopo.png) no-repeat -250px -140px;
   background-size: cover;
 }
 

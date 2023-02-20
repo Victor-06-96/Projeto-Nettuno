@@ -4,7 +4,7 @@
 }
 
 #oproblema {
-  background: url(../pasta.netuno/Assets_Netuno/Container2.png) no-repeat 250px -50px;
+  background: url(../Assets_Netuno/Container2.png) no-repeat 250px -50px;
   background-size: 700px;
   background-color: white;
   height: 130vh;
@@ -59,9 +59,22 @@
   width: 80vw;
 }
 
-.informacao {
+#container div {
+  position: relative;
   text-align: center;
-  background-color: white;
+  height: 200px;
+}
+
+.numero-inv {
+  color: rgba(0, 0, 0, 0.164);
+  margin-top: 20px;
+  font-size: 90px;
+}
+
+.informacao {
+  position: absolute;
+  top: -130px;
+  text-align: center;
   border-radius: 10px;
   padding: 30px;
   margin: 10px;
