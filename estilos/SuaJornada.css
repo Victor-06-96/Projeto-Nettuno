@@ -4,7 +4,8 @@
 }
 
 #suajornada {
-  background-color: rgb(241, 241, 241);
+  width: 100vw;
+  background-color: #f9f9f9;
 }
 
 #frasejornada {
@@ -22,7 +23,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 65px;
+  font-size: 60px;
   width: 355px;
   padding: 0px 25px;
 }

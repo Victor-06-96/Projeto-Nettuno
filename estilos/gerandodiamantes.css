@@ -3,9 +3,19 @@
   padding: 0px;
 }
 
+@font-face {
+  font-family: "noto";
+  src: url(NotoSans-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: noto, Arial, Helvetica;
+}
+
 body {
   background-color: #1a7fbd;
-  font-size: 1.1em;
 }
 
 header {
@@ -189,14 +199,12 @@ main {
 }
 
 #fimform p {
-  color: rgba(0, 0, 0, 0.411);
-  font-size: 0.7em;
+  color: rgba(0, 0, 0, 0.596);
 }
 
 #enviar {
   margin-top: 20px;
   color: white;
-  font-size: 1.2em;
   background-color: #1a7fbd;
   width: 100%;
   height: 55px;
@@ -206,6 +214,10 @@ main {
 
 #enviar:hover {
   cursor: pointer;
+}
+
+.letra-pequena {
+  font-size: 0.7em;
 }
 
 #fimform a {

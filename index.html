@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="estilos/OProjeto.css" />
     <link rel="stylesheet" href="estilos/OProblema.css" />
     <link rel="stylesheet" href="estilos/SuaJornada.css" />
+    <link rel="stylesheet" href="estilos/Objetivos.css">
+    <link rel="stylesheet" href="estilos/Rodape.css">
   </head>
   <body>
     <header>
@@ -140,9 +142,9 @@
               />
               <label class="label_checkbot" for="icheckbot2">Sim</label>
             <div id="fimform">
-              <p id="obr">(*) Campo obrigatórios</p>
+              <p class="letra-pequena">(*) Campos obrigatórios</p>
               <input id="enviar" type="submit" value="Enviar" />
-              <p>
+              <p class="letra-pequena">
                 Ao clicar em enviar você concorda com todos os termos de uso de
                 dados descritos em <a href="#">política de privacidade</a>
               </p>
@@ -302,14 +304,57 @@
       </section>
       <!--Parte Objetivos-->
       <section>
-        <article>
-          <h1></h1>
-          <div></div>
-          <div></div>
-          <div></div>
+        <article id="objetivos">
+          <h1>Objetivos</h1>
+          <div id="mae-objetivos">
+            <div class="os-objetivos">
+              <h2>Otimizar</h2>
+              <p>Otimizar todo processo de contratação chegando a contribuir cam uma economia de 40% no processo de recrutamento.</p>
+            </div>
+            <div class="os-objetivos">
+              <h2>Gerar</h2>
+              <p>Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outrar áreas que esteja descontente.</p>
+            </div>
+            <div class="os-objetivos">
+              <h2>Filtrar</h2>
+              <p>Criar oportunidades brilhantes para profissionais que se destacam junto a parceiros estratégicos de negócio.</p>
+            </div>
+          </div>
         </article>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <article id="imagem-redes-sociais">
+        <img id="imagem-rodape" src="Assets_Netuno/assets/logo+slogan.png" alt="">
+        <div id="icon-social">
+          <img class="social" src="Assets_Netuno/icones/fb.png" alt="">
+          <img class="social" src="Assets_Netuno/icones/ig.png" alt="">
+          <img class="social" src="Assets_Netuno/icones/in.png" alt="">
+          <p>Netuno© 2022 - Todos os direitos reservados</p>
+        </div>
+      </article>
+      <article id="rodape">
+        <div id="borda-botao">
+          <a href="">
+            <div id="botao-rodape">
+              <p>Processo Seletivo</p>
+            </div>
+          </a>
+        </div>
+        <div id="conteudo-rodape">
+          <ul>
+            <li>O Projeto</li>
+            <li>O problema</li>
+            <li>sua Jornada</li>
+            <li>Objetivos</li>
+          </ul>
+        </div>
+        <div id="contato" class="conteudo-rodape">
+          <p><strong>Contato</strong></p>
+          <p>11 91234.5678</p>
+          <p>contato@netuno.com.br</p>
+        </div>
+      </article>
+    </footer>
   </body>
 </html>

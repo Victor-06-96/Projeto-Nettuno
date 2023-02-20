@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#objetivos {
+  width: 100vw;
+  text-align: center;
+}
+
+#objetivos h1 {
+  padding: 30px;
+  color: white;
+  font-size: 60px;
+}
+
+#mae-objetivos {
+  margin: auto;
+  width: 80vw;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.os-objetivos {
+  margin-bottom: 300px;
+  border-radius: 10px;
+  background-color: white;
+  width: 350px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.404);
+}
+
+.os-objetivos h2 {
+  padding-top: 30px;
+}
+
+.os-objetivos p {
+  padding: 20px 40px 40px;
+}
