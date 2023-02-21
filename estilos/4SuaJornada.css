@@ -6,6 +6,7 @@
 #suajornada {
   width: 100%;
   background-color: #f9f9f9;
+  padding-top: 200px;
 }
 
 #frasejornada {
@@ -23,9 +24,9 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 60px;
-  width: 355px;
-  padding: 0px 25px;
+  font-size: 55px;
+  width: 310px;
+  padding: 0px 20px;
 }
 
 #frasejornada img {
