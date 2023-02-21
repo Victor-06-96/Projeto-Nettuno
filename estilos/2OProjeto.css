@@ -89,6 +89,7 @@
 
   #texto-oprojeto {
     position: absolute;
+    width: 65%;
     top: -10%;
     left: 50%;
     transform: translate(-50%);
