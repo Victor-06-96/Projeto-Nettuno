@@ -115,6 +115,10 @@
 }
 
 @media screen and (max-width: 950px) {
+  #oproblema {
+    height: auto;
+  }
+
   #texto-oproblema {
     background-color: rgba(255, 255, 255, 0.925);
     width: 97%;
