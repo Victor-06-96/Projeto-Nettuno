@@ -42,6 +42,7 @@ a {
 
 .nav {
   color: white;
+  margin: 10px;
 }
 
 .nav:hover {
@@ -54,14 +55,14 @@ a {
   margin-right: 100px;
 }
 
-#bottomblack a {
-  color: white;
+#bottomblack div {
   padding: 15px 40px;
   font-weight: bolder;
+  color: white;
   background-color: black;
 }
 
-#bottomblack a:hover {
+#bottomblack div:hover {
   background-color: white;
   color: black;
 }
@@ -82,11 +83,15 @@ a {
   );
 }
 
-@media screen and (max-width: 1310px) {
+@media screen and (max-width: 1326px) {
   header {
     width: 100vw;
     height: 150px;
     display: block;
+  }
+
+  #nav {
+    margin-top: 25px;
   }
 }
 
@@ -104,27 +109,30 @@ a {
     text-align: center;
   }
 
-  a {
+  .nav {
     margin: auto;
     padding: 0px;
+  }
+
+  .nav div {
+    border-radius: 10px;
+    background-color: #145985;
+  }
+
+  .nav div:hover {
+    background-color: #a4dcff;
   }
 
   #nav div {
     width: 80%;
-    border-bottom: 1px solid black;
-    padding: 0px;
-    margin: 50px;
-    margin: auto;
+    padding: 10px;
+    margin: 10px auto;
   }
 
-  #bottomblack {
+  #bottomblack div {
+    border-radius: 10px;
     background-color: black;
     margin: auto;
-    color: white;
-  }
-
-  #bottomblack a {
-    padding: 0px;
     color: white;
   }
 }
