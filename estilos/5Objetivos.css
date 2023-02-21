@@ -4,7 +4,7 @@
 }
 
 #objetivos {
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 
@@ -36,4 +36,24 @@
 
 .os-objetivos p {
   padding: 20px 40px 40px;
+}
+
+@media screen and (max-width: 1350px) {
+  .os-objetivos p {
+    padding: 10px;
+  }
+
+  .os-objetivos {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #mae-objetivos {
+    display: block;
+  }
+  .os-objetivos {
+    margin: 10px auto;
+    width: 80%;
+  }
 }

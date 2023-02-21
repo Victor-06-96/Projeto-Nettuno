@@ -1,0 +1,165 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#oproblema {
+  background: url(../Assets_Netuno/Container2.png) no-repeat 20% 0px;
+  background-size: 900px;
+  background-color: #f9f9f9;
+  height: 130vh;
+  width: 100%;
+}
+
+#texto-oproblema {
+  background-color: #f9f9f95b;
+  border-radius: 15px;
+  padding: 10px;
+  width: 25vw;
+  height: 550px;
+  min-width: 300px;
+  margin-top: 350px;
+  margin-left: 63%;
+}
+
+#texto-oproblema h1 {
+  background-image: linear-gradient(to right, #1a7fbd, #7eceff);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+
+#texto-oproblema h2 {
+  padding: 30px 0px;
+}
+
+#bot-oproblema {
+  padding-bottom: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+#bot-oproblema p {
+  padding-top: 30px;
+}
+
+#pbolder2 {
+  font-weight: bolder;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 135px;
+  width: 80vw;
+}
+
+.numero-inv {
+  position: absolute;
+  top: -10px;
+  left: 150px;
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.062);
+}
+
+.informacao {
+  background-color: white;
+  position: relative;
+  text-align: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px 30px 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.404);
+}
+
+.informacao h1 {
+  font-size: 25px;
+}
+
+.informacao p {
+  margin: 30px;
+}
+
+@media screen and (max-width: 1650px) {
+  #texto-oproblema {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  #container {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  #container {
+    margin-top: 0px;
+  }
+  #texto-oproblema h1 {
+    font-size: 53px;
+  }
+
+  .informacao {
+    margin-top: 70px;
+    padding: 20px;
+  }
+
+  .informacao p {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #texto-oproblema {
+    background-color: rgba(255, 255, 255, 0.925);
+    width: 97%;
+    margin: 0px auto 30px;
+    height: auto;
+  }
+
+  #bot-oproblema {
+    padding-bottom: 50px;
+  }
+
+  #bot-oproblema p {
+    padding-bottom: 0px;
+  }
+
+  #container {
+    display: block;
+  }
+
+  .informacao {
+    background-color: rgba(255, 255, 255, 0.925);
+    padding: 5px;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+
+/*@media screen and (max-width: 950px) {
+  #texto-oproblema {
+    margin-left: 5%;
+  }
+
+  .informacao {
+    background-color: #f9f9f9c0;
+    padding: 5px;
+    margin: 20px auto;
+    width: 60%;
+  }
+
+  #container {
+    display: block;
+  }
+
+  #oproblema {
+    display: flex;
+    justify-content: space-between;
+  }
+}*/

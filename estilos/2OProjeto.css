@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#mae-oprojeto {
+  background: url(../Assets_Netuno/dev.png) no-repeat 100px 50px;
+  background-size: 55%;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#img-oprojeto {
+  width: 60vw;
+  height: 100vh;
+}
+
+#img-oprojeto img {
+  margin-left: 100px;
+  width: 50vw;
+  min-width: 650px;
+}
+
+#texto-oprojeto {
+  width: 400px;
+  margin-left: 63%;
+  color: white;
+  padding-left: 10px;
+}
+
+#texto-oprojeto h1 {
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.527);
+  margin-top: 80px;
+}
+
+#texto-oprojeto p {
+  margin-top: 30px;
+}
+
+#pbolder {
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1125px) {
+  #mae-oprojeto {
+    position: relative;
+    background: url(../Assets_Netuno/dev.png) no-repeat 10% 50px;
+    background-size: 100%;
+  }
+
+  #texto-oprojeto {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 50%;
+    margin: auto;
+    min-width: 200px;
+  }
+
+  #texto-oprojeto h1 {
+    font-size: 45px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #mae-oprojeto {
+    height: 80vh;
+  }
+
+  #texto-oprojeto {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #mae-oprojeto {
+    height: 65vh;
+  }
+
+  #texto-oprojeto {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

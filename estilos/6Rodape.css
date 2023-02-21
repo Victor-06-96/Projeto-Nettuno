@@ -7,7 +7,7 @@ footer {
   width: 100vw;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: black;
 }
 
@@ -44,6 +44,7 @@ footer ul {
 }
 
 #botao-rodape {
+  width: 150px;
   text-align: center;
   font-weight: bolder;
   color: black;
@@ -54,15 +55,23 @@ footer ul {
 }
 
 #conteudo-rodape {
+  display: flex;
+  justify-content: space-around;
   padding: 40px 60px;
+}
+
+#titulos {
+  padding: 10px 30px;
+  margin-top: 20px;
 }
 
 #conteudo-rodape li {
   padding-bottom: 20px;
+  width: 90px;
 }
 
 #contato {
-  padding: 0px 0px 10px 60px;
+  padding: 0px 0px 10px 30px;
   margin-top: 30px;
   height: 150px;
   border-left: 1px solid white;
@@ -70,4 +79,45 @@ footer ul {
 
 #contato p {
   padding: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  #imagem-redes-sociais {
+    width: 300px;
+  }
+
+  #imagem-rodape {
+    width: 25vw;
+  }
+
+  #rodape {
+    display: block;
+  }
+
+  #rodape div {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    display: block;
+  }
+
+  #imagem-redes-sociais {
+    margin: auto;
+  }
+
+  #imagem-rodape {
+    min-width: 200px;
+  }
+
+  #rodape {
+    margin: auto;
+  }
+
+  #botao-rodape {
+    width: 20vw;
+    margin: auto;
+  }
 }

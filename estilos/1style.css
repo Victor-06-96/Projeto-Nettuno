@@ -21,7 +21,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 10px;
   height: 100px;
   text-align: center;
@@ -42,7 +42,6 @@ a {
 
 .nav {
   color: white;
-  margin-left: 30px;
 }
 
 .nav:hover {
@@ -55,17 +54,22 @@ a {
   margin-right: 100px;
 }
 
-#bottomblack {
+#bottomblack a {
   color: white;
-  margin-left: 80px;
-  padding: 15px 30px;
+  padding: 15px 40px;
   font-weight: bolder;
   background-color: black;
 }
 
-#bottomblack:hover {
+#bottomblack a:hover {
   background-color: white;
   color: black;
+}
+
+#bottomblack {
+  margin-left: 80px;
+  padding: 0px;
+  font-weight: bolder;
 }
 
 #linha {
@@ -78,26 +82,76 @@ a {
   );
 }
 
+@media screen and (max-width: 1310px) {
+  header {
+    width: 100vw;
+    height: 150px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  header {
+    height: auto;
+  }
+
+  #logo {
+    margin: auto;
+  }
+
+  #nav {
+    display: block;
+    text-align: center;
+  }
+
+  a {
+    margin: auto;
+    padding: 0px;
+  }
+
+  #nav div {
+    width: 80%;
+    border-bottom: 1px solid black;
+    padding: 0px;
+    margin: 50px;
+    margin: auto;
+  }
+
+  #bottomblack {
+    background-color: black;
+    margin: auto;
+    color: white;
+  }
+
+  #bottomblack a {
+    padding: 0px;
+    color: white;
+  }
+}
+
+/*=====================================================================================================*/
+
 main {
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 100vw;
 }
 
 #bannertopo {
-  width: 100vw;
-  height: 130vh;
-  background: url(../Assets_Netuno/bannertopo.png) no-repeat -250px -140px;
+  background: url(../Assets_Netuno/bannertopo.png) no-repeat -300px -100px;
   background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 125vh;
 }
 
 #maeform {
-  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 65%;
+  margin-left: 60%;
   margin-top: 90px;
   height: 900px;
   width: 500px;
@@ -222,4 +276,33 @@ main {
 
 #fimform a {
   padding: 0px;
+}
+
+@media screen and (max-width: 1370px) {
+  .check {
+    margin: 25px 0px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .check {
+    margin: 25px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .check {
+    margin: 35px 0px 0px 20px;
+  }
+
+  #maeform {
+    margin: auto;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .check {
+    margin: 35px 0px 0px 0px;
+  }
 }
