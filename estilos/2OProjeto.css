@@ -57,13 +57,17 @@
     left: 50%;
     transform: translate(-50%);
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: white;
+    color: black;
     width: 50%;
     margin: auto;
+    padding: 20px;
     min-width: 200px;
   }
 
   #texto-oprojeto h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.233);
     font-size: 45px;
     margin-top: 0px;
   }
