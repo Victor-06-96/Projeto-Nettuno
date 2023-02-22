@@ -61,8 +61,18 @@ footer ul {
 }
 
 #titulos {
+  text-align: center;
   padding: 10px 30px;
   margin-top: 20px;
+}
+
+.titulos {
+  margin-bottom: 20px;
+}
+
+.titulos a {
+  color: white;
+  padding: 0px;
 }
 
 #conteudo-rodape li {
