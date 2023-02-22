@@ -102,11 +102,15 @@
 
 @media screen and (max-width: 400px) {
   #mae-oprojeto {
-    height: 90vh;
+    height: 100vh;
   }
 
   #texto-oprojeto {
     padding: 10px;
-    top: 20px;
+    top: 40px;
+  }
+
+  #texto-oprojeto p {
+    margin-top: 15px;
   }
 }
