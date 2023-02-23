@@ -116,6 +116,7 @@
 
 @media screen and (max-width: 950px) {
   #oproblema {
+    background-position: top center;
     height: auto;
   }
 
