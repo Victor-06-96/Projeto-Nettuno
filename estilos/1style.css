@@ -228,6 +228,7 @@ main {
 }
 
 .form {
+  position: relative;
   background-color: rgb(255, 255, 255);
   width: 85%;
   height: 260px;

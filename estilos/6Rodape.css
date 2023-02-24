@@ -46,8 +46,11 @@ footer ul {
 #botao-rodape {
   width: 150px;
   text-align: center;
+  font-size: 18px;
   font-weight: bolder;
   color: black;
+  border: 1.5px solid #1a7fbd;
+  text-shadow: 0.3px 0.3px 0.3px black;
   border-radius: 10px;
   padding: 20px 50px;
   margin: 20px;
