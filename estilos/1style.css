@@ -187,10 +187,6 @@ main {
   margin-top: 90px;
   height: 900px;
   width: 500px;
-  /* border-radius: 15px;
-  border: 0.1px solid;
-  border-image: linear-gradient(45deg, #ffffff79, #0077cc88, #ffffff79);
-  border-image-slice: 1; */
 }
 
 #topform {
@@ -236,7 +232,7 @@ main {
 }
 
 .form h2 {
-  color: rgba(0, 0, 0, 0.164);
+  color: rgba(0, 0, 0, 0.247);
   text-indent: 10px;
 }
 

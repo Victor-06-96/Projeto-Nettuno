@@ -107,6 +107,14 @@ footer ul {
     display: block;
   }
 
+  .titulos {
+    margin: 0px 0px 10px 0px;
+  }
+
+  #contato {
+    margin-left: 0px;
+  }
+
   #rodape div {
     margin: auto;
   }
