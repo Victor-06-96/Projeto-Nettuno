@@ -71,6 +71,7 @@ footer ul {
 
 .titulos {
   margin-bottom: 20px;
+  width: 150px;
 }
 
 .titulos a {
@@ -107,16 +108,8 @@ footer ul {
     display: block;
   }
 
-  .titulos {
-    margin: 0px 0px 10px 0px;
-  }
-
   #contato {
     margin-left: 0px;
-  }
-
-  #rodape div {
-    margin: auto;
   }
 }
 
@@ -135,6 +128,15 @@ footer ul {
 
   #rodape {
     margin: auto;
+    position: relative;
+  }
+
+  #titulos {
+    padding: 10px 0px;
+  }
+
+  #contato {
+    padding-left: 10px;
   }
 
   #botao-rodape {

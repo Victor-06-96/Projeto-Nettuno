@@ -63,11 +63,16 @@
     margin: auto;
     padding: 20px;
     min-width: 200px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.404);
   }
 
   #texto-oprojeto h1 {
+    background-image: linear-gradient(to right, #1a7fbd, #a4dcff);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
-    color: rgba(0, 0, 0, 0.233);
     font-size: 45px;
     margin-top: 0px;
   }

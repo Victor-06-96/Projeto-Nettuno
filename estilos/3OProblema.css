@@ -116,13 +116,14 @@
 
 @media screen and (max-width: 950px) {
   #oproblema {
-    background-position: top center;
+    background-size: 0px;
     height: auto;
   }
 
   #texto-oproblema {
     background-color: rgba(255, 255, 255, 0.925);
-    width: 97%;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.404);
+    width: 95%;
     margin: 0px auto 30px;
     height: auto;
   }
@@ -135,7 +136,21 @@
     padding-bottom: 0px;
   }
 
+  #mae-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  #container-img {
+    background: url(../Assets_Netuno/Container2.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+  }
+
   #container {
+    height: 100%;
+    width: 45%;
     display: block;
   }
 
@@ -147,24 +162,28 @@
   }
 }
 
-/*@media screen and (max-width: 950px) {
-  #texto-oproblema {
-    margin-left: 5%;
+@media screen and (max-width: 650px) {
+  #container-img {
+    margin-top: 60px;
   }
 
-  .informacao {
-    background-color: #f9f9f9c0;
-    padding: 5px;
-    margin: 20px auto;
-    width: 60%;
+  .informacao p {
+    margin: 10px;
   }
+}
 
-  #container {
+@media screen and (max-width: 550px) {
+  #mae-container {
     display: block;
   }
 
-  #oproblema {
-    display: flex;
-    justify-content: space-between;
+  #container-img {
+    background-position: center center;
+    height: 500px;
+    width: 70%;
   }
-}*/
+
+  #container {
+    width: 95%;
+  }
+}

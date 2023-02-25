@@ -332,6 +332,23 @@ main {
 
 @media screen and (max-width: 550px) {
   .check {
+    margin: 35px 0px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .check {
     margin: 35px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .check {
+    margin-left: 5px;
+    width: 18px;
+  }
+
+  .form {
+    font-size: 14px;
   }
 }
