@@ -4,13 +4,7 @@
 }
 
 #fundo-objetivos {
-  background-image: linear-gradient(
-    to left,
-    #1a7fbd,
-    #32a9f3,
-    #32a9f3,
-    #1a7fbd
-  );
+  background-image: linear-gradient(to left, #1a7fbd, #32a9f3, #1a7fbd);
 }
 
 #objetivos {

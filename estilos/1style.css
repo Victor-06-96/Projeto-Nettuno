@@ -320,6 +320,10 @@ main {
 }
 
 @media screen and (max-width: 1120px) {
+  #bannertopo {
+    background-position: center;
+  }
+
   .check {
     margin: 35px 0px 0px 20px;
   }
