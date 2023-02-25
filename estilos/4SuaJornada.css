@@ -4,6 +4,7 @@
 }
 
 #suajornada {
+  margin: 0px;
   width: 100%;
   background-color: #f9f9f9;
   padding-top: 200px;
@@ -109,8 +110,18 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  #frasejornada img {
+    width: 20vw;
+  }
+}
+
 @media screen and (max-width: 550px) {
   #frasejornada h1 {
     font-size: 50px;
+  }
+
+  #frasejornada img {
+    display: none;
   }
 }
