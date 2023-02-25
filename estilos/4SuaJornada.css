@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  width: 80vw;
+  width: 100vw;
   height: 100px;
   margin-bottom: 100px;
 }
@@ -30,9 +30,19 @@
   padding: 0px 20px;
 }
 
-#frasejornada img {
+.vector {
   margin-top: 40px;
-  width: 30vw;
+  width: 300px;
+}
+
+#vector1 {
+  background: url(../Assets_Netuno/Elements/Vector1.png) no-repeat;
+  background-size: 600px;
+}
+
+#vector2 {
+  background: url(../Assets_Netuno/Elements/Vector2.png) no-repeat;
+  background-size: 600px;
 }
 
 .ajornada {
@@ -95,6 +105,10 @@
 }
 
 @media screen and (max-width: 950px) {
+  .vector {
+    width: 50vw;
+  }
+
   .ajornada {
     display: block;
   }
@@ -110,18 +124,9 @@
   }
 }
 
-@media screen and (max-width: 800px) {
-  #frasejornada img {
-    width: 20vw;
-  }
-}
-
 @media screen and (max-width: 550px) {
   #frasejornada h1 {
-    font-size: 50px;
-  }
-
-  #frasejornada img {
-    display: none;
+    font-size: 45px;
+    padding: 0px;
   }
 }

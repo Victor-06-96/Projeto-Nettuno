@@ -178,12 +178,18 @@
   }
 
   #container-img {
-    background-position: center center;
+    margin: auto;
     height: 500px;
     width: 70%;
   }
 
   #container {
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #container-img {
+    height: 400px;
   }
 }
