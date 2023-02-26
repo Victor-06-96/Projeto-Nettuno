@@ -36,12 +36,12 @@
 }
 
 #vector1 {
-  background: url(../Assets_Netuno/Elements/Vector1.png) no-repeat;
+  background: url(../Assets_Netuno/Elements/Vector1.png) no-repeat right top;
   background-size: 600px;
 }
 
 #vector2 {
-  background: url(../Assets_Netuno/Elements/Vector2.png) no-repeat;
+  background: url(../Assets_Netuno/Elements/Vector2.png) no-repeat left top;
   background-size: 600px;
 }
 
