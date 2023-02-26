@@ -44,84 +44,42 @@
   font-weight: bolder;
 }
 
+#imagem-oprojeto {
+  display: none;
+}
+
 @media screen and (max-width: 1125px) {
   #mae-oprojeto {
-    position: relative;
-    background: url(../Assets_Netuno/dev.png) no-repeat 100px -50px;
-    background-size: 85%;
-    margin-top: 50px;
+    display: block;
+    background-color: #1a7fbd;
+    background-size: 0px;
+    height: auto;
   }
 
   #texto-oprojeto {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%);
-    border-radius: 20px;
-    background-color: white;
-    color: black;
-    width: 50%;
-    margin: auto;
-    padding: 20px;
+    width: 85%;
+    margin: 0px auto;
+    height: auto;
     min-width: 200px;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.404);
   }
 
   #texto-oprojeto h1 {
-    background-image: linear-gradient(to right, #1a7fbd, #a4dcff);
-    color: black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
     font-size: 45px;
-    margin-top: 0px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  #mae-oprojeto {
-    background: url(../Assets_Netuno/dev.png) no-repeat 50px -80px;
-    background-size: 90%;
-    height: 80vh;
   }
 
-  #texto-oprojeto {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%);
+  #imagem-oprojeto {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  #imagem-oprojeto img {
+    width: 60%;
   }
 }
 
 @media screen and (max-width: 650px) {
-  #mae-oprojeto {
-    background: url(../Assets_Netuno/dev.png) no-repeat 30px 0px;
-    background-size: 90%;
-    height: 85vh;
-  }
-
-  #texto-oprojeto {
-    position: absolute;
-    width: 65%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #mae-oprojeto {
-    background: url(../Assets_Netuno/dev.png) no-repeat 30px 100px;
-    background-size: 90%;
-    height: 80vh;
-  }
-
-  #texto-oprojeto {
-    padding: 10px;
-    top: 30px;
-  }
-
-  #texto-oprojeto p {
-    margin-top: 15px;
+  #imagem-oprojeto img {
+    width: 80%;
   }
 }
