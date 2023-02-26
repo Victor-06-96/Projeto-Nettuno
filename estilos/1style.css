@@ -314,6 +314,10 @@ main {
     height: 110vh;
   }
 
+  #maeform {
+    margin-top: 20px;
+  }
+
   .check {
     margin: 25px 0px 0px 10px;
   }
@@ -364,7 +368,7 @@ main {
   }
 }
 
-@media screen and (max-height: 900px) {
+@media screen and (max-height: 700px) {
   #bannertopo {
     height: 900px;
   }
