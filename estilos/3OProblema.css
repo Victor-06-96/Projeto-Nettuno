@@ -199,12 +199,8 @@
   }
 }
 
-@media screen and (max-height: 850px) {
+@media screen and (max-height: 700px) {
   #oproblema {
-    height: 1100px;
-  }
-
-  #mae-container {
-    margin-top: 80px;
+    height: auto;
   }
 }
