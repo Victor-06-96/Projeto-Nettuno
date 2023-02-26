@@ -84,6 +84,10 @@
   margin: 30px;
 }
 
+#container-img img {
+  display: none;
+}
+
 @media screen and (max-width: 1650px) {
   #texto-oproblema {
     margin-top: 100px;
@@ -143,9 +147,13 @@
   }
 
   #container-img {
-    background: url(../Assets_Netuno/Container2.png) no-repeat;
-    background-size: 100%;
     width: 50%;
+  }
+
+  #container-img img {
+    display: block;
+    margin: auto;
+    width: 80%;
   }
 
   #container {
@@ -167,6 +175,10 @@
     margin-top: 60px;
   }
 
+  #container-img img {
+    width: 100%;
+  }
+
   .informacao p {
     margin: 10px;
   }
@@ -179,17 +191,10 @@
 
   #container-img {
     margin: auto;
-    height: 500px;
     width: 70%;
   }
 
   #container {
     width: 95%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #container-img {
-    height: 400px;
   }
 }
