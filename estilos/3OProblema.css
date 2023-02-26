@@ -198,3 +198,13 @@
     width: 95%;
   }
 }
+
+@media screen and (max-height: 850px) {
+  #oproblema {
+    height: 1100px;
+  }
+
+  #mae-container {
+    margin-top: 80px;
+  }
+}

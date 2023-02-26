@@ -75,6 +75,7 @@ a {
 }
 
 #linha {
+  margin-top: 10px;
   padding: 1px;
   background-image: linear-gradient(
     to left,
@@ -360,5 +361,15 @@ main {
 
   .form {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  #bannertopo {
+    height: 900px;
+  }
+
+  #maeform {
+    margin-top: 10px;
   }
 }

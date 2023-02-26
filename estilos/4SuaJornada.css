@@ -138,3 +138,9 @@
     padding: 0px;
   }
 }
+
+@media screen and (max-height: 900px) {
+  #suajornada {
+    padding-top: 50px;
+  }
+}
