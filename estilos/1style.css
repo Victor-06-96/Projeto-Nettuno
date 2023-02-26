@@ -323,6 +323,7 @@ main {
 @media screen and (max-width: 1120px) {
   #bannertopo {
     background-position: center;
+    height: auto;
   }
 
   .check {

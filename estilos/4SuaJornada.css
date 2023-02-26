@@ -80,7 +80,7 @@
 #pt2-ajornada {
   margin-top: 150px;
   text-align: center;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 
 #botao-cadastrar {
@@ -105,6 +105,10 @@
 }
 
 @media screen and (max-width: 950px) {
+  #suajornada {
+    padding: 50px 0px 0px;
+  }
+
   .vector {
     width: 50vw;
   }
@@ -121,6 +125,10 @@
 
   #botao-cadastrar {
     width: 350px;
+  }
+
+  #pt2-ajornada {
+    padding-bottom: 100px;
   }
 }
 

@@ -49,6 +49,7 @@
     position: relative;
     background: url(../Assets_Netuno/dev.png) no-repeat 100px -50px;
     background-size: 85%;
+    margin-top: 50px;
   }
 
   #texto-oprojeto {
@@ -95,7 +96,7 @@
 
 @media screen and (max-width: 650px) {
   #mae-oprojeto {
-    background: url(../Assets_Netuno/dev.png) no-repeat 30px -80px;
+    background: url(../Assets_Netuno/dev.png) no-repeat 30px 0px;
     background-size: 90%;
     height: 65vh;
   }
@@ -103,7 +104,6 @@
   #texto-oprojeto {
     position: absolute;
     width: 65%;
-    top: -10%;
     left: 50%;
     transform: translate(-50%);
   }
@@ -113,7 +113,7 @@
   #mae-oprojeto {
     background: url(../Assets_Netuno/dev.png) no-repeat 30px 100px;
     background-size: 90%;
-    height: 100vh;
+    height: 80vh;
   }
 
   #texto-oprojeto {
