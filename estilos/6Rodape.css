@@ -5,6 +5,7 @@
 
 footer {
   width: 100vw;
+  height: auto;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -16,7 +17,6 @@ footer ul {
 }
 
 #imagem-redes-sociais {
-  margin: 80px 0px 0px 150px;
   padding: 50px 100px 50px 0px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.596);
@@ -34,7 +34,7 @@ footer ul {
 
 #rodape {
   width: 50vw;
-  margin: 100px 0px;
+  margin: 10px 0px;
   display: flex;
   justify-content: center;
 }

@@ -35,6 +35,10 @@
   width: 300px;
 }
 
+#div-frase {
+  text-align: center;
+}
+
 #vector1 {
   background: url(../Assets_Netuno/Elements/Vector1.png) no-repeat right top;
   background-size: 600px;
